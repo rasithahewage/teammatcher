@@ -12,7 +12,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['teammatcher.uds.university', 'localhost', '127.0.0.1', '*']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://teammatcher.uds.university']
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
 
 
 INSTALLED_APPS = [
