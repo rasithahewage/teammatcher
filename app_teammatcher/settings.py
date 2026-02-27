@@ -12,9 +12,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['teammatcher.uds.university', 'localhost', '127.0.0.1', '*']
 
-#CSRF_TRUSTED_ORIGINS = ['https://teammatcher.uds.university']
-#CSRF_COOKIE_SECURE = False
-#SESSION_COOKIE_SECURE = False
+CSRF_TRUSTED_ORIGINS = ['https://teammatcher.uds.university']
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
 
 
 INSTALLED_APPS = [
@@ -103,7 +103,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #STATIC_URL = "/static/"
 #STATIC_ROOT = BASE_DIR / "staticfiles"
 
-#STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 #STATIC_URL = '/static/'
 #STATIC_ROOT = '/app/staticfiles'
