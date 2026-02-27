@@ -3,5 +3,6 @@ numpy
 pygad
 pandas
 gunicorn==22.0.0
-whitenoise
+whitenoise==6.8.0
+
 
