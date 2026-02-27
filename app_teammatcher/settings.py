@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-pifx4!m+=e9t!=)l4k&&8&hn0306)gb!sx2g$1o27!^-63m(wr'
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['teammatcher.uds.university', 'localhost', '127.0.0.1', '*']
 
