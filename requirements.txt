@@ -2,3 +2,4 @@ django
 numpy
 pygad
 pandas
+gunicorn==22.0.0
